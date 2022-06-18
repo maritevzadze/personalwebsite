@@ -260,7 +260,7 @@ section .title::after{
 .education .title::after,
 .teams .title::after{
     background: #111;
-    content: "what i provide";
+    content: "Education First and Foremost";
 }
 .education .education-content .card{
     width: calc(33% - 20px);
@@ -293,7 +293,7 @@ section .title::after{
 }
 /* contact section styling */
 .contact .title::after{
-    content: "get in touch";
+    content: "Contact me";
 }
 .contact .contact-content .column{
     width: calc(50% - 30px);
