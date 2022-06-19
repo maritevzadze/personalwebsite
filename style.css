@@ -291,6 +291,53 @@ section .title::after{
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
+/*--hobby section start */
+.hobby, .teams{
+    color:rgb(165, 30, 30);
+    background: #fff;
+}
+.hobby .title::before,
+.teams .title::before{
+   
+}
+.hobby .title::after,
+.teams .title::after{
+    background: #fff;
+    content: "Sport Life";
+}
+.hobby .hobby-content .card{
+    width: calc(33% - 20px);
+    background: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 50px 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+
+.hobby .hobby-content .card:hover{
+    background: crimson;
+}
+.hobby .hobby-content .card .box{
+    transition: all 0.3s ease;
+}
+.hobby .hobby-content .card:hover .box{
+    transform: scale(1.05);
+}
+.hobby .hobby-content .card i{
+    font-size: 50px;
+    color: crimson;
+    transition: color 0.3s ease;
+}
+.hobby .hobby-content .card:hover i{
+    color: #fff;;
+}
+.hobby .hobby-content .card .text{
+    font-size: 30px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}
 /* contact section styling */
 .contact .title::after{
     content: "Contact me";
